@@ -1,6 +1,6 @@
 ### Divertida Mente Quiz
 
 <b><i>
-Entrando no hype do lançamento do filme, criei um quiz inspirado no BuzzFeed, com a temática do filme.
+Entrando no hype do lançamento do filme "Divertida Mente 2" criei um quiz inspirado no BuzzFeed, com a temática do filme.
 
-<a href="#">🔗Clique aqui para acessar o desafio.
+<a href="https://inside-out-quiz.web.app/">🔗Clique aqui para acessar o desafio.
