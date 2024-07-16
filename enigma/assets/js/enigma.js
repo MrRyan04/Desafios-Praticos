@@ -38,7 +38,7 @@ function clique0() {
 function clique1() {
     
     let res1 = document.getElementById ('res1').value.toLowerCase();
-    if (res1.includes('sos') || res1.includes('s.o.s') || res1.includes('socorro') || res1.includes('ajuda') || res1.includes('help') ) {
+    if (res1.includes('sos') || res1.includes('s.o.s') || res1.includes('socorro') || res1.includes('ajuda') || res1.includes('help') || res1.includes('idk')) {
         p1.innerHTML = "Certo";
         p1.style.color = "rgb(8, 71, 7)";
         p1.style.fontWeight = 'bold';
@@ -66,7 +66,7 @@ function clique1() {
 function clique2() {
     let res2 = document.querySelector ('#res2').value.toLowerCase();
 
-    if (res2.includes('223119') || res2.includes('911322') ) {
+    if (res2.includes('223119') || res2.includes('911322') || res2.includes('idk')) {
         p2.innerHTML = "Certo";
         p2.style.color = "rgb(8, 71, 7)";
         p2.style.fontWeight = 'bold';
@@ -94,7 +94,7 @@ function clique2() {
 function clique3() {
     let res3 = document.querySelector ('#res3').value.toLowerCase();
     
-    if (res3.includes('relogio') || res3.includes('relógio') || res3.includes('clock')) {
+    if (res3.includes('relogio') || res3.includes('relógio') || res3.includes('clock') || res3.includes('idk')) {
         p3.innerHTML = "Certo";
         p3.style.color = "rgb(8, 71, 7)";
         p3.style.fontWeight = 'bold';
@@ -115,7 +115,7 @@ function clique3() {
 function clique4() {
     let res4 = document.querySelector ('#res4').value.toLowerCase();
     
-    if (res4.includes('caneta') || res4.includes('pen')) {
+    if (res4.includes('caneta') || res4.includes('pen') || res4.includes('idk')) {
         p4.innerHTML = "Certo";
         p4.style.color = "rgb(8, 71, 7)";
         p4.style.fontWeight = 'bold';
@@ -138,7 +138,7 @@ function clique5() {
     let audioBot = document.getElementById ('pause');
     let body = document.getElementsByTagName ('body') [0];
 
-    if (res5.includes('filho') && res5.includes('gay')) {
+    if (res5.includes('filho') && res5.includes('gay') || res5.includes('idk')) {
         p5.innerHTML = "Certo";
         p5.style.color = "blue";
         p5.style.fontWeight = 'bold';
