@@ -138,7 +138,7 @@ function clique5() {
     let audioBot = document.getElementById ('pause');
     let body = document.getElementsByTagName ('body') [0];
 
-    if (res5.includes('filho') && res5.includes('gay') || res5.includes('idk')) {
+    if (res5.includes('filho') && res5.includes('fugiu') || res5.includes('idk') || res5.includes('embora')) {
         p5.innerHTML = "Certo";
         p5.style.color = "blue";
         p5.style.fontWeight = 'bold';
@@ -154,7 +154,7 @@ function clique5() {
         body.style.background = 'blue';
         audio.pause();
 
-    } else if (res5.includes('filho') || res5.includes('gay')) {
+    } else if (res5.includes('saiu') || res5.includes('morreu')) {
         p5.innerHTML = 'Near...';
         p5.style.color = "red";
         p5.style.fontWeight = 'bold'; 
